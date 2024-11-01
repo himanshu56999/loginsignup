@@ -12,6 +12,7 @@ class DbService {
         "name": name,
         "email": email,
       };
+      //random
       await FirebaseFirestore.instance
           .collection("users")
           .doc(user!.uid)
